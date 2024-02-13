@@ -1,0 +1,86 @@
+.back-button-container{
+    margin-left: 20px;
+}
+
+.back-button-container:hover{
+    cursor: pointer;
+}
+
+.create-design-header-container{
+    text-align: center;
+    font-family: 'Viaoda Libre', serif;
+    font-size: clamp(1rem, 2.5vw, 3rem);
+    font-style: normal;
+    font-weight: 600;
+    color: #CA4E36;
+    background: #F9F5F2;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 20px;
+    border-radius: 25px;
+    margin-bottom: 40px;
+}
+
+.create-design-options-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.5fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 60px;
+}
+
+.create-design-draw-bg-image-container{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.create-design-draw-container{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: center;    
+    padding: 40px;
+}
+
+.create-design-upload-container{
+    grid-column: 4/5;
+    grid-row: 1/2;   
+    text-align: center;
+    padding: 40px;
+    
+}
+
+.create-design-upload-container:hover{
+    cursor: pointer;
+}
+
+.create-design-draw-container:hover{
+    cursor: pointer;
+}
+
+.create-design-upload-bg-image-container{
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+
+.create-design-link{
+    text-decoration: none;  
+    color: #F1B150;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.10);
+    font-family: "Viaoda Libre";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 53px;
+    /* padding: 40px; */
+    text-align: center;
+
+}
+
+.bottom-decor-container{
+    background-image: url("assets/Brutalist 61.png");    
+    background-repeat: repeat-x;
+    background-size: contain;
+    height: 90px;
+}

@@ -1,0 +1,52 @@
+.upload-describe-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 10px;
+    align-items: center;
+    justify-content: center;    
+}
+
+.upload-area-container{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    padding-top: 0;    
+    
+}
+
+.upload-area{
+    width: 100%;
+    height: 100%;
+    background-color: #DD826C; 
+    border-radius: 25px; 
+    padding: 30px;
+}
+
+.upload-area:hover{
+    cursor: pointer;
+}
+
+.upload-area-details{
+    display: flex;
+    flex-direction: column;
+    border: white 8px dotted;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+.upload-text{
+    text-align: center;
+    font-family: "Viaoda Libre";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+

@@ -1,0 +1,29 @@
+.design-header-container{
+    text-align: center;
+    font-family: 'Viaoda Libre', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: clamp(2.5rem, 2vw, 3rem);
+    color: #CA4E36;
+    padding: 50px;  
+    background-color: #F6D9E1;  
+}
+
+.designs-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(5rem, 20rem));
+    grid-template-rows: min-content;
+    gap: 1.5rem;
+    padding: clamp(1.5rem, 2vw, 2.5rem);
+        
+}
+
+.design-container{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.design-profile-container{
+    flex-basis: 50px;
+}

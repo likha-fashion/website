@@ -1,0 +1,162 @@
+.top-toolbar-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+    /* border-top: #ddb2aa 1px solid; */
+    color: #F6D9E1;
+    
+}
+
+.circle-border{
+    border-radius: 50px;
+    border: #F1B150 3px solid;
+}
+
+.tool-container{
+    padding: 10px;
+    /* margin: 5px; */
+    margin-right: 10px;
+    margin-top: 40px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tool-container{
+    cursor: pointer;
+}
+
+.tool-label{
+    text-align: center;
+    font-family: "Viaoda Libre";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: #CA4E36;
+    margin-right: 10px;
+    margin-bottom: 20px;
+
+}
+
+.spacer{
+    flex-basis: 60px;
+}
+
+.spacer-big{
+    flex-basis: 60vw;
+}
+
+.post-button{
+    width: 50%;
+    background-color: #CA4E36;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Viaoda Libre', serif;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.post-button:hover{
+    cursor: pointer;
+}
+
+.draw-describe-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 10px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.draw-area-container{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    padding-top: 0;
+    
+}
+
+.draw-area{
+    width: 100%;
+    height: 100%;
+    background-color: #F5FFFD;
+    
+}
+
+.desription-message-text{
+    width: 100%;
+}
+
+.measurement-details-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 10px;
+    font-family: "Viaoda Libre";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: #CA4E36;
+
+    margin-right: 20px;
+}
+
+.offer-price-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.description-text{
+    font-family: "Viaoda Libre";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: #CA4E36;
+}
+
+.description-message-container{
+    margin: 20px;
+    margin-left: 0px;
+}
+
+.offer-price-container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Viaoda Libre";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    color: #CA4E36;
+}
+
+.offer-price-label{
+    margin-right: 5px;
+}
+
+.measurement-textbox{
+    border-radius: 25px;
+    background: #F5FFFD;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    border: none;
+    width: 80px;
+    height: 30px;
+}
+
+.desription-message-text{
+    border-radius: 20px;
+}
